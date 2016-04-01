@@ -1,0 +1,23 @@
+.nivoSlider {position:relative;width:1000px;}
+.nivoSlider img {position:absolute;top:0px;left:0px;}
+/* If an image is wrapped in a link */
+.nivoSlider a.nivo-imageLink {position:absolute;top:0px;left:0px;width:648px;height:288px;border:0;padding:0;margin:0;z-index:60;display:none;}
+/* The slices in the Slider */
+.nivo-slice {display:block;position:absolute;z-index:50;height:100%;}
+/* Caption styles */
+.nivo-caption {font: 13px Arial, Helvetica, sans-serif;position:absolute;left:0px;top:0px;background:#000;color:#fff;opacity:0.8;width:648px;height:70px;z-index:89;}
+.nivo-caption b{font-family: "Bradley Hand ITC";font-size: 20px;}
+.nivo-caption a{font:11px Arial;;color:#fff;text-decoration:underline;}
+.nivo-caption p {padding:5px;margin:0;}
+.nivo-caption a {display:inline !important;}
+.nivo-html-caption {   display:none;}
+/* Direction nav styles (e.g. Next & Prev) */
+.nivo-directionNav a {position:absolute;top:45%;z-index:0;cursor:pointer;}
+.nivo-prevNav {left:10px;}
+.nivo-nextNav {right:10px;}
+/* Control nav styles (e.g. 1,2,3...) */
+.nivo-controlNav{position:absolute; background:url(num_bg.png) no-repeat left top; width:250px; height:18px; right:100px;top:368px;z-index:99;}
+.nivo-controlNav a {float:left;	cursor:pointer;  /*background:url(dot1.jpg) no-repeat left top; padding:0 3px 0 3px; margin:3px 0 0 4px; */}
+.nivo-controlNav a.active {	font-weight:bold; background:#D72D0A; /*background:url(dot2.jpg) no-repeat left top;*/}
+#slider {z-index:0;}
+#slider .top {top: 0;left: 0;z-index:0;}
